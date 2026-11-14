@@ -1,0 +1,4 @@
+# dsh-anysearch-fl0wer — 自建发行版（provider id 仍是 anysearch，配置无需改）。
+- insert:
+    - id: anysearch-fl0wer
+      name: dsh-anysearch-fl0wer

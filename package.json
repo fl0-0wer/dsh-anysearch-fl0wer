@@ -1,0 +1,34 @@
+{
+  "name": "dsh-anysearch-fl0wer",
+  "version": "1.0.1",
+  "private": false,
+  "description": "AnySearch 搜索 provider for the DeepSeek Harness web capability seam (ctx.web): api.anysearch.com/v1/search, optional Bearer key with free anonymous fallback.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "web-search",
+    "anysearch"
+  ],
+  "license": "MIT",
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fl0-0wer/dsh-anysearch-fl0wer.git"
+  }
+}
